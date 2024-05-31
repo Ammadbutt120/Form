@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    /* background: linear-gradient(135deg,#F2DAD2, #E3BBB4 ); */
+}
+.box{
+    padding: 20px 30px;
+    width: 450px;
+    height: 784px;
+    background-color:rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    /* font-size: 2em; */
+    /* font-weight: bold; */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0px 10px 12px gray;
+}
+.box .form{
+    padding: 10px 20px;
+}
+.imgae{
+    width: 117px;
+    height: 50px;
+    position: relative;
+    bottom: 30px;
+    right: 50px;
+    border-top-left-radius: 11px
+}
+.box .form h2{
+    text-align: center;
+    color: black;
+    font-size: 2.5em;
+}
+.box .form form{
+    margin-top: 50px;
+    align-items: center;
+    /* margin-left: 15px; */
+}
+.box .form form .inputbox input{
+    padding: 20px 24px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 1.25em;
+    border: 2px solid gray;
+    /* margin-left: auto;
+    margin-right: auto; */
+
+}
+#parent{
+    width: 400px;
+    height: 215px;
+    /* border: 2px solid orchid; */
+    color: black;
+    /* margin-bottom: 11px; */
+    display: block;
+    border-radius: 20px;
+    margin: 10px 36px;
+}
+#parent p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 16px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+::placeholder{
+    /* color: black; */
+    font-size: 1em;
+}
+.box .form form .sub{
+    padding: 20px 45px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: #0cc0df;
+    border-radius: 4px;
+    font-size: 20px;
+    /* margin-top: 10px; */
+    margin: 31px 8px ;
+    box-shadow: 0px 6px 10px gray;
+
+}
+.box .form form .showData{
+    padding: 20px 29px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: rgb(32, 149, 32);
+    border-radius: 4px;
+    font-size: 20px;
+    /* margin-top: 10px; */
+    margin: 31px 8px ;
+    box-shadow: 0px 6px 10px gray;
+
+}
+.box .form form .sub:hover{
+    background: green;
+}
+.box .form form .sub:active{
+    background-color: skyblue;
+}
+.box .form form .sub:focus{
+    background-color: purple;
+}
+p {
+    color: blue;
+    font-size: 20px;
+}
+.del{
+    padding: 6px 9px ;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    margin-left: 8px;
+    font-weight: bold;
+    /* box-shadow: 0px 6px 10px gray; */
+}
+
+

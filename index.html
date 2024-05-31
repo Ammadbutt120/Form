@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <div class="form">
+            <img src="Gray and Black Simple Studio Logo.png" class="imgae" alt="">
+
+            <h2>REGISTRATION FORM</h2>
+            <form>
+                <div class="inputbox">
+                    <p>Full Name</p>
+                    <input type="text" id="inp1" required placeholder="Full Name">
+                </div>
+                <div class="inputbox">
+                    <p>E-mail</p>
+                    <input type="email" id="inp2" required placeholder="E-mail">
+                </div>
+                <div class="inputbox">
+                    <p>Contact No.</p>
+                    <input type="text" id="inp3" required placeholder="Contact.no">
+                </div>
+                <div class="inputbox">
+                    <p>CNIC</p>
+                    <input type="text" id="inp4" required placeholder="00000-000000000-0">
+                </div>
+
+                <button class="sub" onclick="addData()" type="button">submit</button>
+                <br>
+                <button onclick="addElement()" type="button" class="showData">Show Data</button> 
+                    <!-- <div id="SDbox" class="sDbox"> -->
+                        
+                    </div>
+                </form>
+                <div id="parent"></div>
+            </div>
+        </div>
+
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
